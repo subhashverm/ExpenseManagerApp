@@ -40,7 +40,6 @@ Track your expenses automatically by reading UPI SMS, manage them manually, and 
 |------|-------------|-----------|
 | ![home](https://github.com/subhashverm/ExpenseManagerApp/blob/3c1613abd21311f7fabe777aa250e0536d97ee63/home%20.jpg) | ![add](https://github.com/subhashverm/ExpenseManagerApp/blob/45ced40eb7b394fdd48d8188a30421df4d71c53f/add%20expense.jpg) | ![chart](https://github.com/subhashverm/ExpenseManagerApp/blob/45ced40eb7b394fdd48d8188a30421df4d71c53f/deshbooard.jpg) | 
 
-> *(Upload your actual screenshots in `screenshots/` folder)*
 
 ---
 
@@ -56,4 +55,60 @@ Track your expenses automatically by reading UPI SMS, manage them manually, and 
 ---
 
 ## 📁 Folder Structure
+ExpenseManagerApp/
+├── ui/
+│ ├── screens/
+│ ├── navigation/
+│ └── components/
+├── data/
+│ ├── model/
+│ ├── repository/
+│ ├── local (Room DB)
+│ └── remote (Firestore)
+├── utils/
+├── auth/
+├── MainActivity.kt
+└── App.kt
+---
+
+## 🔐 Permissions Used
+
+- `RECEIVE_SMS`
+- `READ_SMS`
+- `INTERNET`
+- `ACCESS_NETWORK_STATE`
+
+Open in Android Studio
+
+Add your Firebase google-services.json file
+
+Add required permissions in AndroidManifest.xml
+
+Enable Firestore + Auth in Firebase Console
+
+Run on Android device or emulator
+
+🔗 Live Preview (Optional GIFs)
+Auto-read UPI SMS → Save → Show in transaction list
+
+Add manual expense → View in dashboard chart
+
+Edit/Delete → Firestore updates in real-time
+
+✅ Future Scope
+Export to CSV
+
+Budget Planning per category
+
+Monthly summary email
+
+Dark mode + Offline sync with Room
+
+👨‍💻 Author
+Developed by Subhash Verma
+📧 subhash27042004@gmail.com
+
+📜 License
+This project is licensed under the MIT License.
+
 
