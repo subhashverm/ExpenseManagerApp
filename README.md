@@ -38,7 +38,7 @@ Track your expenses automatically by reading UPI SMS, manage them manually, and 
 
 | Home | Add Expense | Dashboard |
 |------|-------------|-----------|
-| ![home]() | ![add](screenshots/add.png) | ![chart](screenshots/chart.png) |
+| ![home](https://github.com/subhashverm/ExpenseManagerApp/blob/98c0aac83280f2bfb1a729630f5a3a57a8d76507/login%20%20.jpg) | ![add](screenshots/add.png) | ![chart](screenshots/chart.png) |
 
 > *(Upload your actual screenshots in `screenshots/` folder)*
 
